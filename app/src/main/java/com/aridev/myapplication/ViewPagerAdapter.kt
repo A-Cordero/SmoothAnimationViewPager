@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
+//firstly , we have defined an adapter to inflate the views in the viewpager
 class ViewPagerAdapter (private val layoutResIds: List<Int>) : RecyclerView.Adapter<ViewPagerAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
